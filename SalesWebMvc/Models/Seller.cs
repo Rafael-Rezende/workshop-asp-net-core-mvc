@@ -21,7 +21,7 @@ namespace SalesWebMvc.Models
         [DataType(DataType.Date)]
         [Display(Name = "Birth Date")]
         [Required(ErrorMessage = "{0} required")]
-        [DisplayFormat(DataFormatString = "{0:dd/MM0/yyyy}")]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime BirthDate { get; set; }
 
         [Display(Name = "Base Salary")]
